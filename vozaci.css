@@ -1,0 +1,60 @@
+header{
+	background-image: url("red-color-background.jpg");
+	background-attachment: fixed;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+}
+header li{
+	display: inline;
+	float: left;
+}
+header li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+header li a:hover{
+	background-color: white;
+	color: red;
+}
+body{
+	color: white;
+	background-image: url("siva.jpg");
+}
+footer{
+	background-image: url("red-color-background.jpg");
+    background-attachment: fixed;
+}
+footer a{
+	display: block;
+}
+.vozaci ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+}
+.vozaci li a {
+	display: block;
+	text-decoration: none;
+	padding: 8px 16px;
+	color: #000;
+}
+.vozaci a:hover{
+	background-color: #555;
+	color: white;
+}
+
+.aktivnaStrana{
+	background-color: red;
+	color: white;
+}
